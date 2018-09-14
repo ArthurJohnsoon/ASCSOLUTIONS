@@ -1,0 +1,44 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Projeto</title>
+
+    <!-- arquivos de folha de estilo CSS -->
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body class="container">
+
+    <div>
+
+        <h2>Sistema de controle de Alunos</h2>
+
+        <ul>
+
+            <li> <a href="/Aluno/Cadastro">Cadastrar Alunos</a> </li>
+            <li> <a href="/Turma/Consulta">Consultar Turmas/Notas</a> </li>
+            <li> <a href="/Prova/Cadastro">Inserir Notas</a> </li>
+
+        </ul>
+
+        <hr />
+
+        @RenderBody()
+
+    </div>
+
+</body>
+
+</html>

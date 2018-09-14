@@ -1,0 +1,54 @@
+﻿@model Projeto.Presentation.Models.AlunoViewsModel
+@{
+    ViewBag.Title = "Cadastro";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h4>Cadastro de Alunos</h4>
+
+Informe os campos abaixo:
+
+<br />
+
+<br />
+
+@using (Html.BeginForm())
+
+{
+
+    <div class="text-danger">
+
+        @Html.ValidationSummary()
+
+    </div>
+
+    <label>Nome do Aluno:</label>
+
+    @Html.TextBoxFor(model => model.Nome,
+
+        new { @class = "form-control col-md-3" })
+
+    <br />
+
+    <label>Matrícula:</label>
+
+    @Html.TextBoxFor(model => model.Matricula,
+
+        new { @class = "form-control col-md-3" })
+
+    <br />
+
+    <label>Turma:</label>
+
+    @Html.DropDownListFor(model => model.IdTurma, Model.TurmaList, new { @class = "form-control col-md-3" })
+
+    <br />
+
+    <input type="submit" value="Cadastrar Aluno"
+           class="btn btn-success" />
+
+    <br />
+    <br />
+
+    @ViewBag.Mensagem
+}

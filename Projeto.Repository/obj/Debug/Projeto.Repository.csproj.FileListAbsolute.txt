@@ -1,0 +1,16 @@
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\bin\Debug\Projeto.Repository.dll.config
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\bin\Debug\Projeto.Repository.dll
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\bin\Debug\Projeto.Repository.pdb
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\bin\Debug\EntityFramework.dll
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\bin\Debug\Projeto.Entities.dll
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\bin\Debug\Projeto.Entities.pdb
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\bin\Debug\EntityFramework.xml
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\obj\Debug\Projeto.Repository.csprojAssemblyReference.cache
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\obj\Debug\Projeto.Repository.Migrations.ProjetoInicial.resources
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\obj\Debug\Projeto.Repository.csproj.GenerateResource.cache
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\obj\Debug\Projeto.Repository.csproj.CoreCompileInputs.cache
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\obj\Debug\Projeto.Repository.csproj.CopyComplete
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\obj\Debug\Projeto.Repository.dll
+C:\Users\berna\Source\Repos\ASCSOLUTIONS\ASCSOLUTIONS\Projeto.Repository\obj\Debug\Projeto.Repository.pdb

@@ -1,0 +1,44 @@
+﻿@model List<Projeto.Presentation.Models.TurmaViewModels>
+@{
+    ViewBag.Title = "Consulta";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h4>Consulta de Turma</h4>
+
+Relação de Turmas
+
+<br />
+<br />
+
+<table class="table table-bordered">
+
+    <thead class="thead-light">
+
+        <tr>
+            <th>Turma</th>
+            <th>Turno</th>
+            <th>Nome do Aluno</th>
+            <th>Matrícula</th>
+            <th>1° Prova</th>
+            <th>2° Prova</th>
+            <th>3° Prova</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td> @item.Nome  </td>
+                <td> @item.Turno </td>
+                <td> @item.Aluno </td>
+                <td> @item.Matricula </td>
+                <td> @item.Prova1 </td>
+                <td> @item.Prova2 </td>
+                <td> @item.Prova3 </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

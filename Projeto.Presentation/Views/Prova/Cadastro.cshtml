@@ -1,0 +1,43 @@
+﻿@model Projeto.Presentation.Models.ProvaViewsModel
+@{
+    ViewBag.Title = "Cadastro";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+
+
+
+<h4>Adicionar nota</h4>
+
+Informe os campos abaixo:
+
+<br />
+
+<br />
+@using (Html.BeginForm())
+
+{
+
+    <div class="text-danger">
+
+        @Html.ValidationSummary()
+
+    </div>
+
+    <label>Aluno:</label>
+    @Html.DropDownListFor(model => model.AlunoId, Model.AlunoList, new { @class = "form-control col-md-3" })
+    <br />
+    <label>Nota:</label>
+    @Html.TextBoxFor(model => model.Nota, new { @class = "form-control col-md-3" })
+
+    <br />
+
+    <input type="submit" value="Cadastrar Nota"
+           class="btn btn-success" />
+
+    <br />
+    <br />
+
+    @ViewBag.Mensagem
+}
+

@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Modelagem de Entidade", "0-Modelagem de Entidade", "{E9822B47-B039-41DF-9A94-B80E2CED626D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Sistema", "1-Sistema", "{E6D4DE4B-ED5E-41EB-AF09-FAD0057F18C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.Entities", "Projeto.Entities\Projeto.Entities.csproj", "{81E89F4A-E85E-4645-B365-75D53AEE1DB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1- Camada de Apresentação", "1.1- Camada de Apresentação", "{E8E3FA7B-BD8E-4A32-A76B-541D229A6FAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - Camada de Regra de Negócio", "1.2 - Camada de Regra de Negócio", "{188BF52F-CE00-421E-8D9B-5C7E67D3BAF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.3 - Camanda de Acesso a Dados", "1.3 - Camanda de Acesso a Dados", "{F1E4E1F0-4741-4D4C-8A7C-8314ADB5B2F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.Presentation", "Projeto.Presentation\Projeto.Presentation.csproj", "{D371C8D2-AC69-4BD7-B608-E205E72D9F00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.Business", "Projeto.Business\Projeto.Business.csproj", "{B2AB6D24-4063-435B-A3E9-1579A98F82C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projeto.Repository", "Projeto.Repository\Projeto.Repository.csproj", "{3F86EDB4-1664-45C5-953C-C3ABC0452C78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81E89F4A-E85E-4645-B365-75D53AEE1DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E89F4A-E85E-4645-B365-75D53AEE1DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E89F4A-E85E-4645-B365-75D53AEE1DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E89F4A-E85E-4645-B365-75D53AEE1DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D371C8D2-AC69-4BD7-B608-E205E72D9F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D371C8D2-AC69-4BD7-B608-E205E72D9F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D371C8D2-AC69-4BD7-B608-E205E72D9F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D371C8D2-AC69-4BD7-B608-E205E72D9F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2AB6D24-4063-435B-A3E9-1579A98F82C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2AB6D24-4063-435B-A3E9-1579A98F82C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2AB6D24-4063-435B-A3E9-1579A98F82C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2AB6D24-4063-435B-A3E9-1579A98F82C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F86EDB4-1664-45C5-953C-C3ABC0452C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F86EDB4-1664-45C5-953C-C3ABC0452C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F86EDB4-1664-45C5-953C-C3ABC0452C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F86EDB4-1664-45C5-953C-C3ABC0452C78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81E89F4A-E85E-4645-B365-75D53AEE1DB1} = {E9822B47-B039-41DF-9A94-B80E2CED626D}
+		{E8E3FA7B-BD8E-4A32-A76B-541D229A6FAA} = {E6D4DE4B-ED5E-41EB-AF09-FAD0057F18C5}
+		{188BF52F-CE00-421E-8D9B-5C7E67D3BAF6} = {E6D4DE4B-ED5E-41EB-AF09-FAD0057F18C5}
+		{F1E4E1F0-4741-4D4C-8A7C-8314ADB5B2F3} = {E6D4DE4B-ED5E-41EB-AF09-FAD0057F18C5}
+		{D371C8D2-AC69-4BD7-B608-E205E72D9F00} = {E8E3FA7B-BD8E-4A32-A76B-541D229A6FAA}
+		{B2AB6D24-4063-435B-A3E9-1579A98F82C1} = {188BF52F-CE00-421E-8D9B-5C7E67D3BAF6}
+		{3F86EDB4-1664-45C5-953C-C3ABC0452C78} = {F1E4E1F0-4741-4D4C-8A7C-8314ADB5B2F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37129EAE-3976-4128-A17D-DF2DC389E35F}
+	EndGlobalSection
+EndGlobal
